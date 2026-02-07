@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:propower/splash/splashscreen.dart';
+import '../splash/splashscreen.dart';
 
 // -----------------------------------------------------------------------------
 void main() {
-  runApp(PowerPro());
+  runApp(EngyTech());
 }
 
 // -----------------------------------------------------------------------------
-class PowerPro extends StatelessWidget {
-  const PowerPro({super.key});
+class EngyTech extends StatelessWidget {
+  const EngyTech({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.propower"
+    namespace = "com.example.engytech"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = "29.0.14206865"
 
@@ -19,7 +19,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.propower"
+        applicationId = "com.example.engytech"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
