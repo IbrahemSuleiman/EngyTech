@@ -1,3 +1,4 @@
+import 'package:engytech/home_Page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -35,7 +36,11 @@ class SplashScreenState extends State<SplashScreen>
     });
 
     _controller.addStatusListener((status) {
-      if (status == AnimationStatus.completed) {}
+      if (status == AnimationStatus.completed) {
+        Navigator.of(
+          context,
+        ).pushReplacement(MaterialPageRoute(builder: (_) => HomePage()));
+      }
     });
   }
 
